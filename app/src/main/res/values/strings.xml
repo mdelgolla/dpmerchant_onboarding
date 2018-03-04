@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MerchantOnboard</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_passwordre">Password Enter Again</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <!--error messages-->
+    <string name="error_invalid_email">Invalid Email Address</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="agentid_err">Please Enter your agent Id</string>
+    <string name="app_reg_err">Please Enter Register Number</string>
+    <string name="address_err">Please Enter Company Address</string>
+    <string name="br_error">Please Enter BR Number</string>
+    <string name="tel_error">Invalid Phone Number</string>
+    <string name="branchid_err">Please Enter Brach Id</string>
+    <string name="account_err">Please Enter Account Number</string>
+    <string name="nic_err">Invalid NIC</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_agent_registration">Agent Registration</string>
+    
+    <string name="company_name">Company Name</string>
+    <string name="br_number">BR Number</string>
+    <string name="agent_id">Agent ID</string>
+    <string name="application_reg_no">Application Register Number</string>
+    <string name="comp_email">Company Email</string>
+    <string name="comp_address">Company Address</string>
+    <string name="business_type">Business Type</string>
+    <string name="tel_no">Tel</string>
+    <string name="br_photo">BR Photo</string>
+    <string name="next">Next</string>
+    
+    <string name="bank_priority">Bank Account Priority Type</string>
+    <string name="acc_type">Account Type</string>
+    <string name="branch_id">Branch Id</string>
+    <string name="nic_no">Nic No</string>
+    <string name="acc_no">Account Number</string>
+    <string name="acc_name">Account Name</string>
+    
+    <!--MerchantDetails-->
+    <string name="merchant_name">Merchant Name</string>
+    <string name="merchant_email">Merchant Email</string>
+    <string name="merchant_mobile">Merchant Mobile</string>
+    <string name="merchant_address">Merchant Address</string>
+    <string name="avg_evenue">Monthly Average Revenue</string>
+
+    <!--Server Url-->
+    <string name="SERVER_URL">http://52.15.177.150/dpmerchant_ext/public/api</string>
+    <string name="ONBOARD_MERCHANT">/onboard-merchant</string>
+    <string name="MERCHANT_LOGIN">/login</string>
+
+</resources>

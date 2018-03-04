@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/sp_screen_height_10">
+
+            <EditText
+                android:id="@+id/et_companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Company Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_businessrreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="BR Number"
+                android:inputType="textEmailAddress" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/sp_screen_height_10"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewnic"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nic front" />
+
+                <Button
+                    android:id="@+id/buttonnic"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Capture Image"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/imageViewnic"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/sp_screen_height_10"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewnicback"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nic back" />
+
+                <Button
+                    android:id="@+id/buttonnicback"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Capture Image"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/imageViewnicback"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/sp_screen_height_10"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewOutletphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Outlet photo" />
+
+                <Button
+                    android:id="@+id/buttonOutletphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Capture Image"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/imageViewOutletphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/sp_screen_height_10"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewBRphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BR photo" />
+
+                <Button
+                    android:id="@+id/buttonBRphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Capture Image"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/imageViewBRphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="@dimen/sp_screen_height_10"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewOwnerphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Owner photo" />
+
+                <Button
+                    android:id="@+id/buttonOwnerphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Capture Image"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/imageViewOwnerphoto"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:srcCompat="@android:color/transparent" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_50"
+                android:text="Submit"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
